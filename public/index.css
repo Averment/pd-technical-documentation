@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    background: #e8e8e8;
+}
+
+table thead {
+    font-size: 15px;
+    font-weight: bold;
+    background: #607D8B;
+}
+
+table thead tr {
+    height: 50px;
+}
+
+table tbody {
+    font-size: 12px;
+}
+
+table tr {
+    height: 100px;
+}
+
+table tr td {
+    min-width: 100px;
+    max-width: 300px;
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "pd-technical-documentation",
+  "version": "1.0.0",
+  "description": "A simple project to practise working with technical documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Averment/pd-technical-documentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Averment/pd-technical-documentation/issues"
+  },
+  "homepage": "https://github.com/Averment/pd-technical-documentation#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.2",
+    "@hapi/inert": "^6.0.3",
+    "handlebars": "^4.7.6",
+    "lodash": "^4.17.20",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

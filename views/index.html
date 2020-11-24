@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+    <script src="/public/index.js"></script>
+    <link rel="stylesheet" href="/public/index.css">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>Description</td>
+                <td>Input</td>
+                <td>Expected</td>
+                <td>Output</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <button onclick="one()">Play</button>
+                </td>
+                <td>
+                    <p>
+                        The first element in the array
+                    </p>
+                </td>
+                <td>['hello', 'goodbye']</td>
+                <td>goodbye</td>
+                <td id="output-1"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="two()">Play</button>
+                </td>
+                <td>
+                    <p>
+                        The input array to be output in a randomised way. i.e each time the method is called, the order of the items should be different.
+                    </p>
+                </td>
+                <td>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</td>
+                <td>10, 2, 4, 3, 7, 6, 5, 8, 9, 1</td>
+                <td id="output-2"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="three()">Play</button>
+                </td>
+                <td>
+                    <p>
+                        A boolean value that indicates whether the number 5 is between 1 - 100
+                    </p>
+                </td>
+                <td>5</td>
+                <td>true</td>
+                <td id="output-3"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="four()">Play</button>
+                </td>
+                <td>
+                    <p>
+                        Return a new object that only has the name and age from the input object
+                    </p>
+                </td>
+                <td>{name: "Steven", age: 12, town: "Bradford", job: "accountant"}</td>
+                <td>{name: "Steven", age: 12}</td>
+                <td id="output-4"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="five()">Play</button>
+                </td>
+                <td>
+                    <p>
+                        Return the total value of everyone's age
+                    </p>
+                </td>
+                <td>[{name: "Steven", age: 15}, {name: "Paul", age: 12}, {name: "David", age: 5}]</td>
+                <td>32</td>
+                <td id="output-5"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="six()">Play</button>
+                </td>
+                <td>
+                    <p>
+                        Return the names of all the people who is over the age of 10
+                    </p>
+                </td>
+                <td>[{name: "Steven", age: 15}, {name: "Paul", age: 12}, {name: "David", age: 5}, {name: "Simon", age: 18}]</td>
+                <td>[{name: "Steven", age: 15}, {name: "Paul", age: 12}]</td>
+                <td id="output-6"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="seven()">Play</button>
+                </td>
+                <td>
+                    <p>
+                        Return all the values that do not exist in both lists
+                    </p>
+                </td>
+                <td>[[2,45,7,62,83,555,42], [2,40,7,62,83,55,42]]</td>
+                <td>45,555</td>
+                <td id="output-7"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
