@@ -42,8 +42,6 @@ function six() {
         return input.age >= 10;
     }));
 
-
-
     displayOutput(output, 'output-6');
 }
 
