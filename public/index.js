@@ -1,5 +1,4 @@
 
-
 function one() {
     const input = ['hello', 'goodbye'];
     const output = _.last(input);
@@ -56,3 +55,5 @@ function displayOutput(value, outputElementId) {
     const outputEl = document.getElementById(outputElementId);
     outputEl.innerText = value;
 };
+
+.
