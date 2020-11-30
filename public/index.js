@@ -56,4 +56,3 @@ function displayOutput(value, outputElementId) {
     outputEl.innerText = value;
 };
 
-.
